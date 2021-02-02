@@ -76,7 +76,7 @@ if ( version_compare( PHP_VERSION, '7.1', '>=' ) ) {
 			'<div class="notice notice-warning"><p>%s</p><p><a href="%s">%s</a></p></div>',
 			__( 'Since your PHP version is equal to 7.1 or higher, you no longer need the DOMPDF 0.8.3 add-on.', 'woocommerce-pdf-invoices-packing-slips' ),
 			esc_url_raw( network_admin_url( 'plugins.php?s=dompdf+0.8.3' ) ),
-			__( 'You can safely remove it here', 'woocommerce-pdf-invoices-packing-slips' ),
+			__( 'You can safely remove it here', 'woocommerce-pdf-invoices-packing-slips' )
 		);
 	
 		echo $message;
